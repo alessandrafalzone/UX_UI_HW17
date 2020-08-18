@@ -1,0 +1,91 @@
+.navbar {
+    color: #FFFFFF;
+}
+.nav-link {
+    color: #B4A49D;
+}
+
+.row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h4 {
+  color: #4a4a4a;
+}
+
+#bio {
+  padding-top: 100px;
+}
+
+#bio > p {
+  font-family: monospace;
+}
+
+.button {
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 25px;
+    cursor: pointer;
+    background-color: #8a8a8a;
+    color: white;
+    font-family: monospace;
+    transition: color 0.3s ease-in;
+}
+
+.button:hover {
+  color: #4a4a4a;
+  transition: color 0.3s ease-in;
+}
+
+#profile-photo > img {
+  padding-top: 75px;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-bottom: 10px;
+}
+
+#profile-photo > p {
+  font-family: monospace;
+  padding-left: 75px;
+}
+
+.blue {
+    background-color: #BBDEDE;
+    font-family: monospace;
+}
+
+#footer {
+  padding: 1rem;
+  text-align: center;
+  background: #8a8a8a;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.social-footer .social-footer-icons li:last-of-type {
+  margin-right: 0;
+}
+
+.fa {
+  font-size: 1.3rem;
+  padding-right: 1.3rem;
+  color: #fefefe;
+  transition: color 0.3s ease-in;
+}
+
+.fa:hover {
+  color: #4a4a4a;
+  transition: color 0.3s ease-in;
+}
